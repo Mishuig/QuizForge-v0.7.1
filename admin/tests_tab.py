@@ -163,7 +163,7 @@ class TestsTab(QWidget):
         props_group = QGroupBox("Властивості тесту")
         props_form = QFormLayout(props_group)
         props_form.setRowWrapPolicy(QFormLayout.RowWrapPolicy.WrapLongRows)
-        props_form.setFieldGrowthPolicy(QFormLayout.FieldGrowthPolicy.AllNonFieldsGrow)
+        props_form.setFieldGrowthPolicy(QFormLayout.FieldGrowthPolicy.AllNonFixedFieldsGrow)
         props_form.setVerticalSpacing(12)
 
         self.title_edit = QLineEdit()

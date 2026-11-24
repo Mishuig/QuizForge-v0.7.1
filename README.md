@@ -68,7 +68,7 @@ python -m pytest tests/ -v
 
 ## Портативна збірка
 
-GitHub Action автоматично збирає портативні exe (Windows) і бінарники (Linux) при створенні тегу `v*`.
+GitHub Action `Portable Windows` збирає `QuizForge-Client.exe` і `QuizForge-Admin.exe` у zip-архів. Запускається при створенні тегу `v*` (тоді ж публікується Release) або вручну: Actions → Portable Windows → Run workflow.
 
 Артефакти з’являються в розділі Actions → Build Portable.
 
